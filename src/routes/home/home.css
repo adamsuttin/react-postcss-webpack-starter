@@ -1,0 +1,7 @@
+.screen--home {
+
+  p {
+    color: var(--content-fg-color);
+    font-size: var(--normal-font-size);
+  }
+}

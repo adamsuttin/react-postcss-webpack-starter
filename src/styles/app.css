@@ -1,0 +1,25 @@
+@import './variables.css';
+
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+
+a:link    { color: var(--aLinkColor); }
+a:visited { color: var(--aVisitedColor); }
+a:active,
+a:hover   { color: var(--aHoverColor); }
+
+#app {
+  background-color: $app-bg-color;
+  color: $app-fg-color;
+  margin: 0;
+  padding: 0;
+}
+
+#app-header,
+#app-main,
+#app-footer {
+  margin: 0;
+  padding: 0;
+}

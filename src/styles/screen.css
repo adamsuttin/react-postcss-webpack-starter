@@ -1,0 +1,27 @@
+.screen--header {
+  margin: 0;
+  padding: 1rem;
+  
+  h2 {
+    font-size: var(--h2-size);
+  }
+}
+
+.screen--content {
+  margin: 0;
+  padding: 1rem;
+  
+  p {
+    color: var(--content-fg-color);
+    font-size: var(--normal-font-size);
+  }
+}
+
+.screen--footer {
+  margin: 0;
+  padding: 1rem;
+
+  p {
+    font-size: var(--small-font-size);
+  }
+}
